@@ -1,6 +1,6 @@
 #!/usr/bin/env Rapp
 #| name: figure_1
-#| description: Build the normal-mixture figure and write it to results/.
+#| description: Build the normal-mixture figure and write it to assets/.
 
 # ---------------------------------------------------------------------------
 # Panels
@@ -14,7 +14,7 @@
 
 #| description: File to write. The extension picks the device (.png, .pdf, ...).
 #| short: "o"
-output <- "results/figure_1.png"
+output <- "assets/figure_1.png"
 
 #| description: Scale of the target Student's t prior.
 scale <- 0.05
