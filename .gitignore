@@ -1,0 +1,13 @@
+.Rproj.user
+.DS_Store
+Rplots.pdf
+
+.env
+.venv/
+__pycache__/
+uv.lock
+.ruff_cache/
+*.csv
+
+scripts/
+queries/
